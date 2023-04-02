@@ -23,6 +23,8 @@ public class MathMethods {
             System.out.println(num1 + "/" + num2 + "=" + (num1/num2));
         }
     }
-       public static void main(String)
+       public static void main(String[]args) {
+        add (34 ,)
+       }
 
 }
