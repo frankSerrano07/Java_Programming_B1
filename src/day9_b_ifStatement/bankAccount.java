@@ -3,6 +3,8 @@ package day9_b_ifStatement;
 import java.util.Scanner;
 
 public class bankAccount {
+    public static void main(String[] args) {
+
 
     Scanner input =  new Scanner(System.in);
 

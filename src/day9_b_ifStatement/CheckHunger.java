@@ -12,7 +12,6 @@ public class CheckHunger {
         boolean isHungry = input.nextBoolean();
 
 
-
         if (isHungry) {
             System.out.println("Lets go to Texas de Brazil");
 
@@ -22,4 +21,6 @@ public class CheckHunger {
         }
 
     }
+
+}
 
