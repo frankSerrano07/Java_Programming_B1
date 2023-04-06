@@ -24,7 +24,14 @@ public class MathMethods {
         }
     }
        public static void main(String[]args) {
-        add (34 ,)
+        add (34 , 495);
+        add(453, 4534);
+
+        minus(34.5 , 44.2);
+        minus(30, 15);
+           System.out.println();
+           divide(20, 4);
+           divide(20, 0);
        }
 
 }

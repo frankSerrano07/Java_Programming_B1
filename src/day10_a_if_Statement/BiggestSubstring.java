@@ -2,7 +2,7 @@ package day10_a_if_Statement;
 
 import java.util.Scanner;
 
-public class Biggest {
+public class BiggestSubstring {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.printf("Please enter 3 numbers. Use enter after each. ");

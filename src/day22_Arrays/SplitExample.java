@@ -9,18 +9,22 @@ public class SplitExample {
 
         String days = "Monday, tuesday,Wednesday, Thursday , Friday , Saturday , Sunday";
 
-        String[] dayArr = days.split(",");
+        int countWords  = 0;
+        for (int i = 0; i < days.length(); i++) {
+            if (days.charAt(i)) == ' , ') {
+               countWords++;
+            }
+        }
+        System.out.println("total words: " + (countWords+1));
+        String [] dayArr = days.split(' , ');
         System.out.println(Arrays.toString(dayArr));
-        System.out.println("@@@@@@@@@@@@@@@@@@@@@@@@");
+        String [] dayArr1 = days.split(" , ");
 
-
-        String month = "jan , feb , mar , apr, may , jun ,july ,aug ,sep, oct , nov ,dec";
-        String[] monthArr = month.split(",");
-        for (String eachMonth:monthArr) {
-            System.out.println(eachMonth.substring(0, 1).toUpperCase().);
         }
 
     }
 
 
-}
+
+
+
