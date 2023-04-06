@@ -57,6 +57,7 @@ public class UsingStringClass {
         return unique;
 
 
+
     }
 
 //this method will accept array
