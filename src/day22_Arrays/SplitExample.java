@@ -17,7 +17,7 @@ public class SplitExample {
         String month = "jan , feb , mar , apr, may , jun ,july ,aug ,sep, oct , nov ,dec";
         String[] monthArr = month.split(",");
         for (String eachMonth:monthArr) {
-            System.out.println(eachMonth.substring(0, 1).toUpperCase().);
+            System.out.println(eachMonth.substring(0, 1).toUpperCase());
         }
 
     }
