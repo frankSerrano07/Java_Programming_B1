@@ -6,6 +6,11 @@ public class contains {
         String sentence = " Judo is more than just a sport";
 
         System.out.println(sentence.contains("morethan"));
-        System.out.println("sentence.contains("is than"));
+        System.out.println(sentence.contains("is than"));
+
+
+
+
+
     }
 }

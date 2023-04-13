@@ -6,8 +6,8 @@ public class smsPart {
         String msg = "Sender : <James Bond>. From Number [234-456-7890]. + message : {I love programming and solving problem}";
 
         int sendStart = msg.indexOf("<") +1;
-        int sendEnd;  + msg.lastIndexOf(">");
-        String name;  msg.substring(sendStart ,sendEnd );
+        int sendEnd  = msg.lastIndexOf(">");
+        String name =  msg.substring(sendStart ,sendEnd );
         System.out.println(name);
 
         int numStart = msg.indexOf("[")+1;

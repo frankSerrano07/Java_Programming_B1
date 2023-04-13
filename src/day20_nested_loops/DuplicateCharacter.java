@@ -7,6 +7,7 @@ public class DuplicateCharacter {
 
 
 
+
         String  str = "AAABCCDEEF";
 
         for (int i = 0; i < str.length(); i++) {
