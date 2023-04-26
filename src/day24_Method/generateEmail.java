@@ -12,7 +12,6 @@ public class generateEmail {
         generateEmail("Dilan ", "gmail");
 
         System.out.println();
-        generateEmail
 
     }
 }
