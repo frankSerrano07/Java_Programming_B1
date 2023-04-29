@@ -14,6 +14,8 @@ public class DuplicateCharacter {
 
             int count =0;
 
+            char uniqueChar;
+
             if(uniqueChar.contains(""+str.charAt(i))) {
                 continue;
             }
