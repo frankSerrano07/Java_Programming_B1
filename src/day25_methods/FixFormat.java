@@ -13,7 +13,7 @@ public class FixFormat {
     return fixed;
 
 
-        System.out.println(StringUtil.);
+        System.out.println(StringUtil.reverseStr());
 
 
     }

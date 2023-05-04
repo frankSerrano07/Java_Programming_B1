@@ -11,7 +11,8 @@ public class EligibleToVote {
 
         boolean isEligible;
 
-        isEligible = age >= 18 && isCitizen && !hasCriminalBackGround;
+
+      //  isEligible = age >= 18 && isCitizen && !hasCriminalBackGround;
 
         System.out.println( name + "is eligible to vote " + isEligible);
 
