@@ -1,6 +1,6 @@
 package day36_inheritance.Hiding;
 
-
+//*
 public class Person {
     String name = "Tom Jerry";
 
