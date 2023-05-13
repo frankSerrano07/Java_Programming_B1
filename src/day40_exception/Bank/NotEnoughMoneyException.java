@@ -1,4 +1,4 @@
-package day40_exception;
+package day40_exception.Bank;
 
 
 public class NotEnoughMoneyException extends RuntimeException {
